@@ -8,9 +8,11 @@ Return the missing side
 (2 points)
 """
 def hypotenuse(a,b,c): 
-  return sum(a,b,c)
- x = hypotenuse(3,4,False) == 5
- print(x)
- y = hypotenuse(13,5,True) == 12
- print(y)
-  
+  if c ==True:
+    return math.hypot(a,b)
+  elif c = False:
+    math.sqrt
+    
+
+    
+    
