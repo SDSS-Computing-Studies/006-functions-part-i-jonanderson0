@@ -12,7 +12,7 @@ def hypotenuse(a,b,c):
   if c ==True:
     return math.hypot(a,b)
   elif c == False:
-    math.sqrt(**a2 - b**2)
+    return math.sqrt(**a2 - b**2)
     
 x = hypotenuse(3,4,True)
 print(x)
