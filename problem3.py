@@ -8,3 +8,13 @@ into another number.
 Example: The factors of 10 are 1, 2, 5, 10
 (2 points)
 """
+def factors(a):
+  factorList = []
+for i in range(1,a+1):
+if a % i == 0:
+  factorList.append(i)
+  factorList.sort()
+  return factorList
+
+x = factors(12)
+print(x)
