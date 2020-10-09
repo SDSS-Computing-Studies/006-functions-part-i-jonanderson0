@@ -14,10 +14,10 @@ def hypotenuse(a,b,c):
   elif c ==False:
     return math.sqrt(a**2 - b**2)
     
-x = hypotenuse(3,4,True)
+x = hypotenuse(3,4,False)
 print(x)
 
-y = hypotenuse(13,5,False)
+y = hypotenuse(13,5,True)
 print(y)
 
     
