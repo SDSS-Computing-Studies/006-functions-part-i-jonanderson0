@@ -9,9 +9,9 @@ Return the missing side
 """
 import math
 def hypotenuse(a,b,c): 
- if c ==True:
+  if c ==True:
     return math.hypot(a,b)
- elif c ==False:
+  elif c ==False:
     return math.sqrt(a**2 - b**2)
     
 x = hypotenuse(3,4,True)
@@ -20,5 +20,4 @@ print(x)
 y = hypotenuse(13,5,False)
 print(y)
 
-    
     
