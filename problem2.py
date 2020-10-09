@@ -9,3 +9,7 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 
+def distance(x,y):
+  return math.hypot(y[0]-x[0],y[1]-x[1])
+x =  distance((2, 4), (6, 3))
+print(x)
