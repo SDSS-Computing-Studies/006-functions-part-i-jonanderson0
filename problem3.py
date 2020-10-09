@@ -14,7 +14,7 @@ for i in range(1,a+1):
   if a % i == 0:
     factorList.append(i)
     factorList.sort()
-    return factorList
+      return factorList
 
 x = factors(12)
 print(x)
