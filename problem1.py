@@ -16,6 +16,7 @@ def hypotenuse(a,b,c):
     
 x = hypotenuse(3,4,True)
 print(x)
+
 y = hypotenuse(13,5,False)
 print(y)
 
