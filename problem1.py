@@ -18,8 +18,7 @@ def hypotenuse(a,b,c):
         if b > a:
             return math.sqrt(b**2 - a**2)
             
+print(hypotenuse(3,4,False))
 
-x =(hypotenuse(3,4,False))
-print(x)
 
 
