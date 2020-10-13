@@ -11,13 +11,15 @@ import math
 
 def hypotenuse(a,b,c):
     if c == True:
-        return math.hypot(a,b)
-    elif c == False:
-        return math.sqrt(a**2 - b**2)
+        return math.sqrt(a**2 + b**2)
+    else:
+        if a > b:
+            return math.sqrt(a**2 - b**2)
+        if b > a:
+            return math.sqrt(b**2 - a**2)
+            
 
-x = hypotenuse(3,4,True)
+x =(hypotenuse(3,4,False))
 print(x)
 
-y = hypotenuse(13,5,False)
-print(y)
 
